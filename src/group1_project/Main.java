@@ -2,6 +2,8 @@ package group1_project;
 
 import java.util.Scanner;
 
+import member.Member;
+
 public class Main {
 	public static void main(String[] args) {
 		while(true){
@@ -11,6 +13,8 @@ public class Main {
 			int num = input.nextInt();
 			switch(num) {
 				case 1:
+					Member m= new Member();
+					m.addM();
 					break;
 				case 2:
 					break;
